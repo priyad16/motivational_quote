@@ -1,0 +1,36 @@
+body{
+    background-color: #000;
+    padding: 0 5% 5%;
+}
+.image{
+    background-image: url('https://images.unsplash.com/photo-1508558936510-0af1e3cccbab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    width: 75vw;
+    height: 75vh;
+    border: 5px solid yellow;
+    margin: 1rem auto;
+}
+.main-phrase {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(255, 200, 0);
+    text-decoration: underline;
+    margin-top: 0;
+}
+.quote{
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+@media (max-width: 600px){
+    .image{
+        height: 45vh;
+    }
+    .main-phrase{
+        font-size: 2rem;
+    }
+    .quote{
+        font-size: 1.5rem;
+    }
+}
